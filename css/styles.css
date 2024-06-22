@@ -1,0 +1,186 @@
+body {
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+        background-color: #FFFFFF;
+    
+}
+ul,
+ol {
+    list-style-type: none;
+}
+header {
+    background-color: #FFFFFF;
+}
+a {text-decoration: none;}
+.logo-web {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #4D5AE5;
+}
+.logo-studio {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #2E2F42;
+}
+.navigation-studio{
+    
+        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+.navigation-studio:hover {
+    color: #404BBF;
+}
+.navigation-studio:active {
+    color: #404BBF;
+}
+.navigation-portfolio {
+    
+        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+.navigation-portfolio:hover {
+    color: #404BBF;
+}
+.navigation-contacts {
+        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+.navigation-contacts:hover {
+    color: #404BBF;
+}
+.address-mailto {
+    
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+        font-style: normal;
+}
+.address-mailto:hover {
+    color: #404BBF;
+}
+.address-tel {
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+        font-style: normal;
+}
+.address-tel:hover {
+    color: #404BBF;
+}
+h1 {
+    
+       
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+h2 {
+    
+        
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+h3 {
+    
+        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+.button {
+background-color: #4D5AE5;
+}
+.button:hover {
+    background-color: #404BBF;
+}
+.button-order-service {
+    
+       
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        
+}
+.our-advantages {
+
+}
+.our-advantages-text {
+   
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+}
+.our-time-position {
+    
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+.footer-text {
+    
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F4F4FD;
+}
