@@ -1,6 +1,7 @@
 body {
         background-color: #FFFFFF;
-    
+        font-family: "Roboto", sans-serif;
+        color: #434455;
 }
 ul,
 ol {
@@ -27,7 +28,7 @@ a {text-decoration: none;}
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #2e2f42;
+        color:#2e2f42;
 }
 
 .navigation-link {
@@ -147,8 +148,25 @@ cursor: pointer;
         text-align: center;
         color: #434455;
 }
+.our-portfolio-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
 .footer {
         background-color: #2e2f42;
+}
+.footer-logo {
+        font-family: Raleway;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #f4f4fd;
 }
 .footer-text {
     
@@ -158,5 +176,5 @@ cursor: pointer;
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #f4f4fd;
+        
 }
