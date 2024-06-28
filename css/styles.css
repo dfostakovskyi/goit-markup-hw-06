@@ -72,7 +72,7 @@ a {text-decoration: none;}
         
 }
 .navigation-studio {
-        padding: 24px 0;
+        
         align-items: center;
 }
 .address-item {
@@ -109,6 +109,8 @@ a {text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .navigation-link:hover {
         color: #404bbf;
@@ -302,7 +304,9 @@ border-radius: 4px;
 }
 
 .our-portfolio-list-punct {
-        width: calc((100% - 48px) / 3);
+        
+        width: calc((100%-48px)/3);
+
 }
 .our-portfolio-list-punct-txt {
         padding: 32px 16px;
@@ -335,23 +339,24 @@ border-radius: 4px;
         display: inline-block;
         margin-bottom: 16px;
         font-family: "Raleway", sans-serif;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-align: left;
-                color: #4D5AE5;
-                text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #4D5AE5;
+        text-transform: uppercase;
 }
 
 .footer-logo {
         font-family: Raleway;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-align: left;
-                color: #f4f4fd;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #f4f4fd;
+        
 }
 .footer-text {
     
