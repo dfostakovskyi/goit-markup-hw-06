@@ -2,17 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -20,32 +11,38 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>/Homework#3</title>
   </head>
   <body>
     <header class="page-header">
       <div class="container">
-        <nav>
+        <nav class="heder-nav">
           <a href="./index.html" class="logo">
             Web<span class="logo-studio">Studio</span>
           </a>
-          <ul>
+          <ul class="header-menu">
             <li class="navigation-studio">
               <a href="./index.html" class="navigation-link">Studio</a>
             </li>
-            <li>
+            <li class="navigation-studio">
               <a href="" class="navigation-link">Portfolio</a>
             </li>
-            <li>
+            <li class="navigation-studio">
               <a href="" class="navigation-link">Contacts</a>
             </li>
           </ul>
         </nav>
 
         <address class="address">
-          <ul>
+          <ul class="address-item">
             <li>
               <a href="mailto:info@devstudio.com" class="address-mailto"
                 >info@devstudio.com</a
@@ -65,36 +62,37 @@
       <section class="upper-fild">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
+
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
       <section>
         <div class="container">
           <!--Our advantages-->
-          <h2 class="our-advantages-title">Our advantages</h2>
+          <h2 class="visually-hidden">Our advantages</h2>
           <ul class="our-advantages">
-            <li>
+            <li class="our-advantages-item">
               <h3 class="advantages-title">Strategy</h3>
               <p class="our-advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <h3 class="advantages-title">Punctuality</h3>
               <p class="our-advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <h3 class="advantages-title">Diligence</h3>
               <p class="our-advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <h3 class="advantages-title">Technologies</h3>
               <p class="our-advantages-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -106,9 +104,10 @@
       </section>
       <section class="our-time">
         <!--Our Team-->
+
+        <h2 class="our-time-title">Our Team</h2>
         <div class="container">
-          <h2 class="our-time-title">Our Team</h2>
-          <ul>
+          <ul class="our-time-persons">
             <li class="our-time-list">
               <img
                 src="./images/photo-comand-1.jpg"
@@ -116,8 +115,10 @@
             looking straight at you"
                 width="264"
               />
-              <h3 class="advantages-title">Mark Guerrero</h3>
-              <p class="our-time-position">Product Designer</p>
+              <div class="our-time-list-person-name">
+                <h3 class="advantages-title">Mark Guerrero</h3>
+                <p class="our-time-position">Product Designer</p>
+              </div>
             </li>
             <li class="our-time-list">
               <img
@@ -126,8 +127,10 @@
             the side"
                 width="264"
               />
-              <h3 class="advantages-title">Tom Ford</h3>
-              <p class="our-time-position">Frontend Developer</p>
+              <div class="our-time-list-person-name">
+                <h3 class="advantages-title">Tom Ford</h3>
+                <p class="our-time-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-time-list">
               <img
@@ -136,8 +139,10 @@
             straight dark hair"
                 width="264"
               />
-              <h3 class="advantages-title">Camila Garcia</h3>
-              <p class="our-time-position">Marketing</p>
+              <div class="our-time-list-person-name">
+                <h3 class="advantages-title">Camila Garcia</h3>
+                <p class="our-time-position">Marketing</p>
+              </div>
             </li>
             <li class="our-time-list">
               <img
@@ -146,8 +151,10 @@
             looking straight at you"
                 width="264"
               />
-              <h3 class="advantages-title">Daniel Wilson</h3>
-              <p class="our-time-position">UI Designer</p>
+              <div class="our-time-list-person-name">
+                <h3 class="advantages-title">Daniel Wilson</h3>
+                <p class="our-time-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
