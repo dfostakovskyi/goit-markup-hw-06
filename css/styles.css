@@ -62,11 +62,14 @@ a {text-decoration: none;}
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+        align-items: center;
 }
 
 .header-menu {
         display: flex;
         gap: 40px;
+        padding: 24px 0;
+        
 }
 .navigation-studio {
         padding: 24px 0;
@@ -76,6 +79,7 @@ a {text-decoration: none;}
         display: flex;
         gap: 40px;
         padding: 24px 0;
+        align-items: center;
 }
 
 .logo {
@@ -117,6 +121,7 @@ a {text-decoration: none;}
 
 .address {
         font-style: normal;
+        
 }
 .address-mailto {
         font-size: 16px;
@@ -126,6 +131,7 @@ a {text-decoration: none;}
         text-align: left;
         color: #434455;
         font-style: normal;
+        
 }
 .address-mailto:hover {
     color: #404bbf;
@@ -168,6 +174,11 @@ border-radius: 4px;
 .button:focus {
         background-color: #404BBF;
 }
+
+.our {
+        padding: 120px 0;
+}
+
 .our-advantages-title {
         line-height: 1.07;
         font-size: 56px;
@@ -177,13 +188,17 @@ border-radius: 4px;
 }
 
 .visually-hidden {
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        height: 1px;
-        overflow: hidden;
         position: absolute;
-        white-space: nowrap;
-        width: 1px;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                border: 0;
+                padding: 0;
+        
+                white-space: nowrap;
+                clip-path: inset(100%);
+                clip: rect(0 0 0 0);
+                overflow: hidden;
 }
 .our-advantages {
         display: flex;
@@ -261,20 +276,49 @@ border-radius: 4px;
         color: #434455;
         text-align: center;
 }
+
+.our-portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
 .our-portfolio-title {
+        
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
+
+.our-portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+
+}
+
+.our-portfolio-list-punct {
+        width: calc((100% - 48px) / 3);
+}
+.our-portfolio-list-punct-txt {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+
+}
+
+
 .our-portfolio-item {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .our-portfolio-item-tipe {
         font-size: 16px;
@@ -284,7 +328,22 @@ border-radius: 4px;
 }
 .footer {
         background-color: #2e2f42;
+        padding: 100px 0;
 }
+
+.footer-link {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-family: "Raleway", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #4D5AE5;
+                text-transform: uppercase;
+}
+
 .footer-logo {
         font-family: Raleway;
                 font-size: 18px;
