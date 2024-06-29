@@ -359,6 +359,7 @@ border-radius: 4px;
         text-align: left;
         color: #4D5AE5;
         text-transform: uppercase;
+        display: inline-block;
 }
 
 .footer-logo {
