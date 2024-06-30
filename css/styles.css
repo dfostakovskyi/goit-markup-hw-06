@@ -25,7 +25,8 @@ ol {
 
 img {
         display: block;
-        
+        max-width: 100%;
+        object-fit: contain;
 }
 
 .heder-nav {
@@ -43,21 +44,22 @@ body {
 
 
 header {
-    background-color: #FFFFFF;
-border-bottom: 1px solid #e7e9fc;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #e7e9fc;
+        max-width: 1440px;
+        margin: 0 auto;
+        align-items: center;
+        
 }
+
 a {text-decoration: none;}
 
 .container {
         display: flex;
         max-width: 1158px;
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
         align-items: center;
-        padding-top: 120;
-                padding-bottom: 120;
-                
+        
 }
 
 .header-menu {
@@ -87,6 +89,7 @@ a {text-decoration: none;}
         color: #4D5AE5;
         text-transform: uppercase;
         margin-right: 76px;
+
 }
 .logo-studio {
         font-family: Raleway;
@@ -118,7 +121,7 @@ a {text-decoration: none;}
 
 .address {
         font-style: normal;
-        
+        margin-left: 332px;
 }
 .address-mailto {
         font-size: 16px;
@@ -139,11 +142,16 @@ a {text-decoration: none;}
 
 .upper-fild .container {
         flex-direction: column;
+        
 }
 
 .upper-fild {
-background-color: #2e2f42;
-padding: 188px 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        align-items: center;
+        background-color: #2e2f42;
+        padding: 188px 0;
+
 }
 .main-title {
         font-size: 56px;
@@ -169,6 +177,9 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+padding: 16px 32px;
+width: 177px;
+margin-top: 48px;
 }
 .button:hover {
     background-color: #404BBF;
@@ -179,6 +190,9 @@ border-radius: 4px;
 
 .our {
         padding: 120px 0;
+        max-width: 1158px;
+        margin: 0 auto;
+        align-items: center;
 }
 
 .our-advantages-title {
@@ -237,7 +251,13 @@ border-radius: 4px;
 }
 .our-time {
         background-color: #F4F4FD;
-        padding: 120px 0;
+        padding-top: 120px;
+        padding-bottom: 72px;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        align-items: center;
 }
 
 .our-time .container {
@@ -322,6 +342,8 @@ border-radius: 4px;
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
+        max-width: 360px;
+        height: 120px;
 
 }
 
@@ -342,11 +364,17 @@ border-radius: 4px;
 }
 .footer {
         background-color: #2e2f42;
-        padding: 100px 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        align-items: center;
 }
 
 .footer .container {
         display: inline-block;
+        max-width: 264px;
+        margin-left: 156px;
+        margin-top: 100px;
+        margin-bottom: 100px;
 }
 
 .footer-link {
