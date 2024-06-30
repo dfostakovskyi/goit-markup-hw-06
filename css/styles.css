@@ -49,6 +49,10 @@ header {
         max-width: 1440px;
         margin: 0 auto;
         align-items: center;
+        
+}
+
+.page-header .container {
         padding: 0 15px;
 }
 
@@ -150,8 +154,8 @@ a {text-decoration: none;}
         margin: 0 auto;
         align-items: center;
         background-color: #2e2f42;
+        padding: 188px 0;
         
-        padding: 120px 0;
 
 }
 .main-title {
@@ -253,7 +257,7 @@ margin-top: 48px;
 .our-time {
         background-color: #F4F4FD;
         padding-top: 120px;
-        padding-bottom: 72px;
+        padding-bottom: 120px;
         padding-left: 0;
         padding-right: 0;
         max-width: 1440px;
