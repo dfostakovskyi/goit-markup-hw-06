@@ -62,8 +62,8 @@ a {text-decoration: none;}
         display: flex;
         max-width: 1158px;
         margin: 0 auto;
-        align-items: center;
         
+        padding: 0 15px;
 }
 
 .header-menu {
@@ -146,11 +146,11 @@ a {text-decoration: none;}
 
 .upper-fild .container {
         flex-direction: column;
-        
+        align-items: center;
 }
 
 .upper-fild {
-        max-width: 1440px;
+        
         margin: 0 auto;
         align-items: center;
         background-color: #2e2f42;
@@ -194,7 +194,7 @@ margin-top: 48px;
 }
 
 .our {
-        padding: 120px 0;
+        padding: 0 0;
         max-width: 1158px;
         margin: 0 auto;
         align-items: center;
@@ -242,7 +242,7 @@ margin-top: 48px;
         text-align: left;
         color: #2E2F42;
         margin-bottom: 8px;
-        text-align: center;
+        
 }
 .our-advantages-text {
    
@@ -284,6 +284,7 @@ margin-top: 48px;
 .our-time-persons {
         display: flex;
         gap: 24px;
+        align-items: center;
 }
 
 .our-time-list {
@@ -292,8 +293,22 @@ margin-top: 48px;
         border-radius: 0px 0px 4px 4px;
 }
 
+.our-time-member {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        text-align: center;
+}
+
+
+
 .our-time-list-person-name {
         padding: 32px 0;
+        
 }
 
 .our-time-position {
@@ -369,16 +384,16 @@ margin-top: 48px;
 }
 .footer {
         background-color: #2e2f42;
-        max-width: 1440px;
+        
         margin: 0 auto;
-        align-items: center;
+        
         padding: 100px 0;
 }
 
 .footer .container {
         display: inline-block;
-        max-width: 264px;
-        margin-left: 156px;
+        max-width: 294px;
+        margin-left: 141px;
         
 }
 
@@ -408,7 +423,7 @@ margin-top: 48px;
 }
 .footer-text {
     
-        
+        padding-top: ;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
