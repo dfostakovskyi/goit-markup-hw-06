@@ -84,7 +84,7 @@ a {text-decoration: none;}
 .address-item {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        
         align-items: center;
 }
 
@@ -426,7 +426,7 @@ margin-top: 48px;
         letter-spacing: 0.03em;
         text-align: left;
         color: #f4f4fd;
-        
+        display: inline-block;
 
 }
 .footer-text {
