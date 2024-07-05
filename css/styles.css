@@ -26,13 +26,10 @@ ol {
 img {
         display: block;
         max-width: 100%;
-        object-fit: contain;
+        height: auto;
+        
 }
 
-.heder-nav {
-        display: flex;
-        align-items: center;
-}
 
 
 body {
@@ -46,15 +43,18 @@ body {
 header {
         background-color: #FFFFFF;
         border-bottom: 1px solid #e7e9fc;
-        max-width: 1440px;
+        
         margin: 0 auto;
         align-items: center;
         
 }
 
-.page-header .container {
-        padding: 0 15px;
+.heder-nav {
+        display: flex;
+        align-items: center;
 }
+
+
 
 a {text-decoration: none;}
 
@@ -66,20 +66,24 @@ a {text-decoration: none;}
         padding: 0 15px;
 }
 
+.heder-conteiner {
+        align-items: center;
+}
+
 .header-menu {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
         
+        margin-left: 76px;
 }
 .navigation-studio {
-        
+        padding: 24px 0;
         align-items: center;
 }
 .address-item {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        
         align-items: center;
 }
 
@@ -92,7 +96,8 @@ a {text-decoration: none;}
         text-align: left;
         color: #4D5AE5;
         text-transform: uppercase;
-        margin-right: 76px;
+        
+        padding: 24px 0;
 
 }
 .logo-studio {
@@ -111,8 +116,9 @@ a {text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 24px 0;
+        display: block;
+
 }
 .navigation-link:hover {
         color: #404bbf;
@@ -125,7 +131,7 @@ a {text-decoration: none;}
 
 .address {
         font-style: normal;
-        margin-left: 332px;
+        margin-left: auto;
 }
 .address-mailto {
         font-size: 16px;
@@ -135,7 +141,7 @@ a {text-decoration: none;}
         text-align: left;
         color: #434455;
         font-style: normal;
-        
+        padding: 24px 0;
 }
 .address-mailto:hover {
     color: #404bbf;
@@ -154,7 +160,7 @@ a {text-decoration: none;}
         margin: 0 auto;
         align-items: center;
         background-color: #2e2f42;
-        padding: 188px 0;
+        
         
 
 }
@@ -165,7 +171,7 @@ a {text-decoration: none;}
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        
+        padding: 188px 0 0 0;
 }
 
 .button {
@@ -182,9 +188,10 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
-padding: 16px 32px;
+padding: 16px 32px 16px 32px;
 width: 177px;
 margin-top: 48px;
+margin-bottom: 188px;
 }
 .button:hover {
     background-color: #404BBF;
@@ -195,7 +202,7 @@ margin-top: 48px;
 
 .our {
         padding: 0 0;
-        max-width: 1158px;
+        
         margin: 0 auto;
         align-items: center;
 }
@@ -210,16 +217,16 @@ margin-top: 48px;
 
 .visually-hidden {
         position: absolute;
-                width: 1px;
-                height: 1px;
-                margin: -1px;
-                border: 0;
-                padding: 0;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
         
-                white-space: nowrap;
-                clip-path: inset(100%);
-                clip: rect(0 0 0 0);
-                overflow: hidden;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .our-advantages {
         display: flex;
@@ -390,15 +397,16 @@ margin-top: 48px;
         padding: 100px 0;
 }
 
-.footer .container {
-        display: inline-block;
-        max-width: 294px;
-        margin-left: 141px;
+.footer-conteiner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        width: 264px;
         
 }
 
 .footer-link {
-        margin-bottom: 16px;
+        
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -407,7 +415,7 @@ margin-top: 48px;
         text-align: left;
         color: #4D5AE5;
         text-transform: uppercase;
-        display: inline-block;
+        
 }
 
 .footer-logo {
@@ -418,12 +426,12 @@ margin-top: 48px;
         letter-spacing: 0.03em;
         text-align: left;
         color: #f4f4fd;
-        display: inline-block;
+        
 
 }
 .footer-text {
     
-        padding-top: ;
+        
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
