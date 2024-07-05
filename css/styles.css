@@ -77,8 +77,9 @@ a {text-decoration: none;}
         
 }
 .navigation-studio {
-        padding: 24px 0;
-        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
 }
 .address-item {
         display: flex;
