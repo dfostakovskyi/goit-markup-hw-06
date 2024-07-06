@@ -75,11 +75,11 @@ a {text-decoration: none;}
         
         
 }
-.navigation-studio {
+/* .navigation-studio {
         padding-top: 24px;
         padding-bottom: 24px;
 
-}
+} */
 .address-item {
         display: flex;
         gap: 40px;
@@ -118,6 +118,7 @@ a {text-decoration: none;}
         color: #2e2f42;
         padding-top: 24px 0;
         display: block;
+        padding: 24px 0;
 
 }
 .navigation-link:hover {
