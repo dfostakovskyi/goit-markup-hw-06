@@ -75,11 +75,7 @@ a {text-decoration: none;}
         
         
 }
-/* .navigation-studio {
-        padding-top: 24px;
-        padding-bottom: 24px;
 
-} */
 .address-item {
         display: flex;
         gap: 40px;
@@ -162,6 +158,15 @@ a {text-decoration: none;}
         align-items: center;
         background-color: #2e2f42;
         padding: 188px 0;
+        background-size: 1440px;
+        background-image: linear-gradient(to bottom, rgba(46,47,66,0.7) 0% 100%, rgba(117, 120, 168, 1) 100% 100%), 
+        url(../images/people-office\ 1.jpg)
+        ;
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        
         
 
 }
