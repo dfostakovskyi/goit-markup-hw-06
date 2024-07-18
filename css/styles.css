@@ -625,10 +625,10 @@ content: "";
 
 }
 
-.footer-subscribe-form-label {
+/* .footer-subscribe-form-label {
         display: flex;
         gap: 24px;
-}
+} */
 
 .footer-subscribe-form-email {
         border: 1px solid #ffffff;
