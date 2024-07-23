@@ -736,14 +736,19 @@ content: "";
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-window-button:hover,
+.modal-window-button:focus + .modal-window-button-svg {
+        fill: #ffffff;
+}
 
-.modal-window-button-svg:hover {
+
+/* .modal-window-button-svg:hover {
         fill: #ffffff;
 }
 
 .modal-window-button-svg:focus {
         fill: #ffffff;
-}
+} */
 
 .modal-window-title {
         font-weight: 500;
