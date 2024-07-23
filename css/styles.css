@@ -730,7 +730,7 @@ content: "";
 {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff;
+        /* fill: #ffffff; */
 }
 
 .modal-window-button-svg {
@@ -738,10 +738,14 @@ content: "";
         
 }
 
-.modal-window-button:focus-within {
+/* .modal-window-button:focus-within {
+        fill: #ffffff;
+} */
+
+.modal-window-button:hover .modal-window-button-svg,
+.modal-window-button:focus .modal-window-button-svg {
         fill: #ffffff;
 }
-
 
 .modal-window-title {
         font-weight: 500;
