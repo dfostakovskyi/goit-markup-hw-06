@@ -119,14 +119,6 @@ a {text-decoration: none;}
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-/* .navigation-link:hover {
-        color: #404bbf;
-} */
-/* .navigation-link:focus {
-        color: #404bbf;
-} */
-
-
 
 .navigation-link::after {
 content: "";
@@ -168,9 +160,7 @@ content: "";
 {
         color: #404bbf;
 }
-/* .address-mailto:focus {
-        color: #404bbf;
-} */
+
 
 .upper-fild .container {
         flex-direction: column;
@@ -228,9 +218,7 @@ content: "";
 .button:hover, .button:focus {
         background-color: #404BBF;
 }
-/* .button:focus {
-        background-color: #404BBF;
-} */
+
 
 .our {
         padding: 120px 0;
@@ -869,6 +857,7 @@ content: "";
         align-items: center;
         justify-content: center;
         fill: transparent;
+        
 }
 
 .modal-window-input-checkbox-link {
@@ -892,10 +881,18 @@ content: "";
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-left: auto;
         margin-right: auto;
+        transition-property: background-color;
+
 }
+
+.modal-window-input-send:hover, .modal-window-input-send:focus {
+        background-color: #404BBF;
+}
+
 
 .modal-window-input-checkbox-input:checked+label>span {
         background-color: #404BBF;
         fill: #F4F4FD;
-        border: none;
+        border: none; 
 }
+
