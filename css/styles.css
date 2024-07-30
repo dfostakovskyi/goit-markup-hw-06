@@ -304,16 +304,19 @@ body {
   opacity: 0;
 }
 
-.mobil-menu-navigation-link:hover::after,
-/* .mobil-menu-navigation-link.current::after  */ {
-  opacity: 1;
-}
-
 .mobil-menu-navigation-link:hover,
 .mobil-menu-navigation-link:focus,
 .mobil-menu-navigation-link.current {
   color: #404bbf;
 }
+
+.mobil-menu-navigation-link:hover::after {
+  opacity: 1;
+}
+
+/* .mobil-menu-navigation-link.current::after {
+  opacity: 1;
+} */
 
 .mobil-menu-address-item {
   display: flex;
