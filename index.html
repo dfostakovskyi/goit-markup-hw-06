@@ -19,7 +19,7 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>/Homework#5</title>
+    <title>/Homework#6</title>
   </head>
   <body>
     <header class="page-header">
@@ -57,12 +57,92 @@
             </li>
           </ul>
         </address>
+        <button class="burger-button" data-menu-open type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobil-menu" data-menu>
+        <div class="container mobil-menu-container">
+          <button type="button" class="mobil-menu-button" data-menu-close>
+            <svg width="8" height="8" class="modal-window-button-svg">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+          <nav class="mobil-menu-nav">
+            <ul class="nav-menu">
+              <li class="nav-menu-item">
+                <a
+                  class="mobil-menu-navigation-link current"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="nav-menu-item">
+                <a class="mobil-menu-navigation-link" href="">Portfolio</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="" class="mobil-menu-navigation-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobil-menu-adress">
+            <ul class="mobil-menu-address-item">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="mobil-menu-address-phone current"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobil-menu-address-mailto"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobil-menu-social-media-list">
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="">
+                <svg width="24" height="24" class="footer-social-media-svg">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="">
+                <svg class="footer-social-media-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="">
+                <svg width="24" height="24" class="footer-social-media-svg">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-item">
+              <a class="footer-social-media-link" href="">
+                <svg width="24" height="24" class="footer-social-media-svg">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
       <!-- Upper field with a button-->
-      <section class="upper-fild">
+      <section class="upper-fild hidden">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
 
@@ -71,7 +151,7 @@
           </button>
         </div>
       </section>
-      <section class="our">
+      <section class="our hidden">
         <div class="container">
           <!--Our advantages-->
           <h2 class="visually-hidden">Our advantages</h2>
@@ -128,7 +208,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-time">
+      <section class="our-time hidden">
         <!--Our Team-->
         <div class="container">
           <h2 class="our-time-title">Our Team</h2>
@@ -306,7 +386,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-portfolio">
+      <section class="our-portfolio hidden">
         <div class="container">
           <!--Our Portfolio-->
           <h2 class="our-portfolio-title">Our Portfolio</h2>
@@ -442,7 +522,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-conteiner">
         <div class="footer-inform">
           <a href="./index.html" class="footer-link">
@@ -515,7 +595,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal" data-modal>
+    <div class="modal hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="modal-window-button" data-modal-close>
           <svg width="8" height="8" class="modal-window-button-svg">
@@ -612,5 +692,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
