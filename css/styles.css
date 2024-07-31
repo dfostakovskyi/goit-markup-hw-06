@@ -751,3 +751,114 @@ body {
     padding: 72px 24px 24px 24px;
   }
 }
+
+/* Our advantages */
+
+.our {
+  padding: 96px 0;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.our-advantages-item-icon-box {
+  display: none;
+}
+.our-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.advantages-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-advantages-text {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .our {
+    padding: 96px 0;
+    max-width: 768px;
+  }
+  .our-advantages {
+    height: 312px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .our-advantages-item {
+    max-width: 356px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .our {
+    padding: 120 0;
+    max-width: 1158px;
+  }
+
+  .our-advantages {
+    display: flex;
+    gap: 24px;
+  }
+
+  .our-advantages-title {
+    line-height: 1.07;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #070707;
+  }
+
+  .our-advantages-item-icon {
+    fill: #f4f4fd;
+  }
+
+  .our-advantages-item-icon-box {
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-advantages-item {
+    max-width: 264px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .advantages-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .our-advantages-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+  }
+}
