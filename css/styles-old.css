@@ -409,7 +409,7 @@ body {
   overflow: hidden;
 } */
 
-.thumb-txt {
+/* .thumb-txt {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -450,12 +450,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 .footer {
   background-color: #2e2f42;
-
   margin: 0 auto;
-
   padding: 100px 0;
 }
 
@@ -513,12 +511,12 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-social-media-list {
+/* .footer-social-media-list {
   display: flex;
   gap: 16px;
-}
+} */
 
-.footer-social-media-item {
+/* .footer-social-media-item {
   width: 40px;
   height: 40px;
 }
@@ -541,7 +539,7 @@ body {
 
 .footer-social-media-svg {
   fill: #f4f4fd;
-}
+} */
 
 .footer-subscribe-form {
   display: flex;
