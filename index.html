@@ -209,14 +209,19 @@
           </ul>
         </div>
       </section>
-      <section class="our-time hidden">
-        <!--Our Team-->
+
+      <!-- our-time -->
+
+      <section class="our-time">
         <div class="container">
           <h2 class="our-time-title">Our Team</h2>
-
           <ul class="our-time-persons">
             <li class="our-time-list">
               <img
+                srcset="
+                  ./images/photo-comand-1.jpg    1x,
+                  ./images/photo-comand-1-X2.jpg 2x
+                "
                 src="./images/photo-comand-1.jpg"
                 alt="The man with a beard
             looking straight at you"
@@ -225,7 +230,6 @@
               <div class="our-time-list-person-name">
                 <h3 class="our-time-member">Mark Guerrero</h3>
                 <p class="our-time-position">Product Designer</p>
-
                 <ul class="our-time-media-list">
                   <li class="our-time-media-item">
                     <a class="our-time-media-link" href="">
@@ -260,6 +264,10 @@
             </li>
             <li class="our-time-list">
               <img
+                srcset="
+                  ./images/photo-comand-2.jpg    1x,
+                  ./images/photo-comand-2-X2.jpg 2x
+                "
                 src="./images/photo-comand-2.jpg"
                 alt="The young man looking to
             the side"
@@ -302,6 +310,10 @@
             </li>
             <li class="our-time-list">
               <img
+                srcset="
+                  ./images/photo-comand-3.jpg    1x,
+                  ./images/photo-comand-3-X2.jpg 2x
+                "
                 src="./images/photo-comand-3.jpg"
                 alt="The woman with long
             straight dark hair"
@@ -344,6 +356,10 @@
             </li>
             <li class="our-time-list">
               <img
+                srcset="
+                  ./images/photo-comand-4.jpg    1x,
+                  ./images/photo-comand-4-X2.jpg 2x
+                "
                 src="./images/photo-comand-4.jpg"
                 alt="The man with a small beard
             looking straight at you"
@@ -387,21 +403,45 @@
           </ul>
         </div>
       </section>
-      <section class="our-portfolio hidden">
-        <div class="container">
-          <!--Our Portfolio-->
-          <h2 class="our-portfolio-title">Our Portfolio</h2>
 
+      <!--Our Portfolio-->
+
+      <section class="our-portfolio">
+        <div class="container">
+          <h2 class="our-portfolio-title">Our Portfolio</h2>
           <ul class="our-portfolio-list">
             <li class="our-portfolio-list-punct">
               <div class="thumb">
-                <img
-                  src="./images/our-portfolio-1.jpg"
-                  alt="Screenshots of the
+                <picture>
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-1.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-1-x2.jpg 2x
+                    "
+                    media="(min-width: 1159px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-1-tab.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-1-tab-x2.jpg 2x
+                    "
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-1-mob.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-1-mob-x2.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/our-portfolio/our-portfolio-1.jpg"
+                    alt="Screenshots of the
               banking application"
-                  width="360"
-                  height="300"
-                />
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="thumb-txt">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -415,6 +455,36 @@
             </li>
             <li class="our-portfolio-list-punct">
               <div class="thumb">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-2.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-2-x2.jpg 2x
+                    "
+                    media="(min-width: 1159px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-2-tab.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-2-tab-x2.jpg 2x
+                    "
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/our-portfolio/our-portfolio-2-mob.jpg    1x,
+                      ./images/our-portfolio/our-portfolio-2-mob-x2.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/our-portfolio/our-portfolio-2.jpg"
+                    alt="Screenshots of the
+              banking application"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <img
                   src="./images/our-portfolio-2.jpg"
                   alt="Payment at the cash
